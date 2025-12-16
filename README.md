@@ -128,7 +128,8 @@ Copy code
 cd backend
 npm install
 npm start
-(or use Python server if configured)
+
+---
 
 🚀 How It Works
 User uploads or records speech input
@@ -140,6 +141,8 @@ Features are extracted from the speech signal
 Emotion recognition model predicts the emotion
 
 Result is sent back to the frontend for display
+
+---
 
 📊 Evaluation Metrics
 The emotion recognition model can be evaluated using:
@@ -154,12 +157,16 @@ F1-Score
 
 Confusion Matrix
 
+---
+
 🔐 Security & Privacy
 Audio files are processed securely
 
 No sensitive user data is permanently stored
 
 Designed with privacy-aware principles
+
+---
 
 📈 Future Enhancements
 Real-time emotion detection
@@ -172,10 +179,14 @@ Mobile application integration
 
 Improved model accuracy using deep learning
 
+---
+
 👨‍💻 Contributor
 Amulya Eragani
 
 Contributions are welcome. Feel free to fork the repository and submit pull requests.
+
+---
 
 📄 License
 This project is licensed under the MIT License.
